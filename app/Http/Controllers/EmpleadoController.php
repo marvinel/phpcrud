@@ -154,6 +154,6 @@ class EmpleadoController extends Controller
         }
 
         
-        return redirect('empleado')->width('mensaje','Empleado Eliminado');
+        return redirect('empleado')->with('mensaje','Empleado Eliminado');
     }
 }
